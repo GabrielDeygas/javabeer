@@ -1,0 +1,105 @@
+{
+  "beers": [
+    {
+      "id": 1,
+      "name": "La Chouffe",
+      "origin": "Belgium",
+      "type": "Blonde",
+      "adb": 8.0,
+      "flavor": "Fruité, Épicé",
+      "img": "chouffe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Leffe Blonde",
+      "origin": "Belgium",
+      "type": "Bière d'Abbaye",
+      "adb": 6.6,
+      "flavor": "Doux, Malté",
+      "img": "leffe.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Guinness",
+      "origin": "Ireland",
+      "type": "Stout",
+      "adb": 4.2,
+      "flavor": "Amer, Torréfié",
+      "img": "guinness.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kwak",
+      "origin": "Belgium",
+      "type": "Ambrée",
+      "adb": 8.4,
+      "flavor": "Caramel, Malté",
+      "img": "kwak.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Heineken",
+      "origin": "Netherlands",
+      "type": "Lager",
+      "adb": 5.0,
+      "flavor": "Léger, Mauvais goût",
+      "img": "heineken.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user",
+      "email": "user@user.com",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "role": "admin"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "beer_id": 1,
+      "note": 5,
+      "details": "Excellente bière avec un goût fruité!"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "beer_id": 2,
+      "note": 4,
+      "details": "Bonne bière d'abbaye, assez maltée."
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "ingredients": ["Eau", "Malt", "Houblon", "Levure"],
+      "steps": [
+        "Faire bouillir l'eau.",
+        "Ajouter le malt et laisser infuser.",
+        "Ajouter le houblon.",
+        "Fermenter avec la levure pendant 2 semaines."
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "ingredients": ["Eau", "Malt", "Zeste d'orange", "Houblon", "Levure"],
+      "steps": [
+        "Faire bouillir l'eau.",
+        "Ajouter le malt et laisser infuser.",
+        "Ajouter le houblon et le zeste d'orange.",
+        "Fermenter avec la levure pendant 2 semaines."
+      ]
+    }
+  ]
+}

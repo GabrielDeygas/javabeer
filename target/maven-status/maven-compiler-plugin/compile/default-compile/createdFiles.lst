@@ -1,0 +1,7 @@
+com\festivalbiere\model\Beer.class
+com\festivalbiere\service\BeerService$1.class
+com\festivalbiere\service\BeerService.class
+com\festivalbiere\servlets\BeerServlet.class
+com\festivalbiere\model\User.class
+com\festivalbiere\model\Review.class
+com\festivalbiere\model\Recipe.class
